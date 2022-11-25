@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding-top: 20px;
+    background-color: #fff;
+    width: 550px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 16px 29px rgba(195, 190, 38, 0.2);
+}
+.dott{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.dott span{
+    border-radius:  50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(211, 211,211)
+}
+.dott span.active{
+    border-color: rgb(143,137, 137);
+    
+}
+.card_title{
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 38px;
+}
+.item{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    border-top: 2px solid silver;
+    padding: 20px 0;
+}
+.item img{
+    width: 120px;
+    height: 50px;
+}
+.btn{
+    width: 100%;
+    padding: 20px 0;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 135, 210);
+    color: #fff;
+    text-decoration: none;
+    border: 0 0 12px;
+    border: none;
+}
+.btn svg path{
+    fill: red;
+}
+.btn:active{
+    padding: 1px;
+}
+.item.two {
+    position: absolute;
+}
